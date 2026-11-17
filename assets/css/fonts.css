@@ -1,0 +1,47 @@
+/**
+ * Local @font-face declarations for the Vamika theme.
+ *
+ * Uses locally bundled variable-font woff2 files instead of the
+ * Google Fonts CDN for GDPR compliance and offline support.
+ *
+ * @package Vamika
+ * @since 1.0.0
+ */
+
+/* ── Bricolage Grotesque (variable, 300–800) ─────────────── */
+
+@font-face {
+  font-family: 'Bricolage Grotesque';
+  font-style: normal;
+  font-weight: 300 800;
+  font-display: swap;
+  src: url('../fonts/bricolage-grotesque.woff2') format('woff2');
+}
+
+/* ── Fraunces (variable, 300–900) ────────────────────────── */
+
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url('../fonts/fraunces.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Fraunces';
+  font-style: italic;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url('../fonts/fraunces-italic.woff2') format('woff2');
+}
+
+/* ── JetBrains Mono (variable, 400–500) ──────────────────── */
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400 500;
+  font-display: swap;
+  src: url('../fonts/jetbrains-mono.woff2') format('woff2');
+}
